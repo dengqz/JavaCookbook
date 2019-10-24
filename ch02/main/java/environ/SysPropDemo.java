@@ -6,6 +6,7 @@ package environ;
  */
 public class SysPropDemo {
     public static void main(String[] args) {
+        //注释
         System.out.println(System.getProperty("pencil_color"));
         if(args.length==0){
             System.getProperties().list(System.out);
